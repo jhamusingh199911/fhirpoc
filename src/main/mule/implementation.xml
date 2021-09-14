@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<salesforce:basic-connection username="jhamusingh199911-d1l5@force.com" password="1r2a3j4a5N.." securityToken="BgWsXFordVuAR9VUBoKy21PJq" />
 	</salesforce:sfdc-config>
 	<flow name="getPatients" doc:id="e4f9f0e5-4e91-4021-b2a7-2ea8f4be17ed" >
-		<salesforce:query doc:name="Query" doc:id="cbbbac68-a229-483f-986f-0df537ff10d7" config-ref="Salesforce_Config">
+		<salesforce:query doc:name="Query" doc:id="5ada1dbf-9a78-4225-9b4b-029205f0aff8" config-ref="Salesforce_Config">
 			<salesforce:salesforce-query ><![CDATA[SELECT Name FROM Account Where PID__c=':id']]></salesforce:salesforce-query>
 			<salesforce:parameters ><![CDATA[#[output application/java
 ---

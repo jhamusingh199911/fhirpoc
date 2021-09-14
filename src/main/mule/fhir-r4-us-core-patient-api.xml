@@ -225,10 +225,10 @@ output application/json
         </ee:transform>
     </flow>
     <flow name="get:\Patient\(id):fhir-r4-us-core-patient-api-config">
-		<flow-ref doc:name="Flow Reference" doc:id="9997e0ab-545a-4ce2-8dc2-d3d23bf120c0" name="getPatients"/>
+		<flow-ref doc:name="Flow Reference" doc:id="6ebfa29d-875b-4243-be92-f8da1804885e" name="getPatients"/>
     </flow>
     <flow name="post:\Patient:application\fhir+json:fhir-r4-us-core-patient-api-config">
-		<flow-ref doc:name="Flow Reference" doc:id="4962ee23-3c88-4ba0-b398-7571436bc21d" name="CreateOrUpdatePatients"/>
+		<flow-ref doc:name="Flow Reference" doc:id="c3096b8e-1259-4c03-a06e-5b287c6bdaa0" name="CreateOrUpdatePatients"/>
     </flow>
     <flow name="post:\Patient:application\fhir+xml:fhir-r4-us-core-patient-api-config">
         <logger level="INFO" message="post:\Patient:application\fhir+xml:fhir-r4-us-core-patient-api-config" />
