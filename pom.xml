@@ -35,7 +35,7 @@
 						<environment>Sandbox</environment>
 						<workers>1</workers>
 						<workerType>Micro</workerType>
-						<applicationName>fhirpoc1</applicationName>
+						<applicationName>fhirpocrajan</applicationName>
 						<password>1r2a3j4a5N.</password>
 						<muleVersion>4.3.0</muleVersion>
 						<objectStoreV2>true</objectStoreV2>
